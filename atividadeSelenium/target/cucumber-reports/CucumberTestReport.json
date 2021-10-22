@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3012706572,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Pesquisa “selenium ide” e validar versão",
+        "description": "",
+        "id": "eu-como-usuário,-quero-pesquisar-a-ide-do-selenium-e-validar-sua-versão;pesquisa-“selenium-ide”-e-validar-versão;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 69938157,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3033807460,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Eu acesso a página do web store",
+            "match": {
+              "location": "WebStoreSteps.acessarPagWebStore()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219501933,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Eu busco por selenium ide \"selenium ide\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selenium ide",
+                  "offset": 27
+                }
+              ],
+              "location": "WebStoreSteps.pesquisarIde(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5431593181,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Acesso a página da extensão Selenium IDE",
+            "match": {
+              "location": "WebStoreSteps.acessarPagina()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995419065,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Efetuo a validação da versão da IDE",
+            "match": {
+              "location": "WebStoreSteps.validarIDE()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Eu como usuário, quero pesquisar a IDE do selenium e validar sua versão",
+    "description": "",
+    "id": "eu-como-usuário,-quero-pesquisar-a-ide-do-selenium-e-validar-sua-versão",
+    "keyword": "Feature",
+    "uri": "LoginTest.feature"
+  }
+]

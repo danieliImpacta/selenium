@@ -1,0 +1,6 @@
+Utilities/PropertiesReader.class
+PageObjects/WebStorePage.class
+StepDefinitions/WebStoreSteps.class
+StepDefinitions/Hooks.class
+TestRunner.class
+Utilities/BaseClass.class

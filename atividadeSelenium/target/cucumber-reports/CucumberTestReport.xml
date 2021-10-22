@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.762966">
+    <testcase classname="Eu como usuário, quero pesquisar a IDE do selenium e validar sua versão" name="Pesquisa “selenium ide” e validar versão" time="12.762966">
+        <system-out>
+            <![CDATA[Given Eu acesso a página do web store.......................................passed
+When Eu busco por selenium ide "selenium ide"...............................passed
+And Acesso a página da extensão Selenium IDE................................passed
+Then Efetuo a validação da versão da IDE....................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
